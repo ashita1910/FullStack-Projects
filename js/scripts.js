@@ -13,10 +13,10 @@ $(document).ready(function() {
             $("#carouselButton").children("span").addClass("fa-pause");
         }
     });
-});
-$('#loginBtn').click(function() {
-    $('#loginModal').modal(focus)
-});
-$('#reserveBtn').click(function() {
-    $('#reserveModal').modal(focus)
+    $('#loginBtn').click(function() {
+        $('#loginModal').modal(focus)
+    });
+    $('#reserveBtn').click(function() {
+        $('#reserveModal').modal(focus)
+    });
 });
